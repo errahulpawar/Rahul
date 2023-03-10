@@ -31,15 +31,112 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">7.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Regression1</td><td class="numi">6</td><td class="numi">6</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">146.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Default test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">com.hrms.testscripts.Log4j_TC001</td><td><a href="#m1"><b>tc001</b>  </a></td><td class="numi">1</td><td>1678088325686</td><td class="numi">7657</td></tr>
+<tr><th colspan="4">Regression1 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.hrms.testscripts.Log4j_TC004</td><td><a href="#m1"><b>tc004</b>  </a></td><td class="numi">1</td><td>1678186913220</td><td class="numi">13837</td></tr>
+<tr class="failedeven"><td rowspan="1">com.hrms.testscripts.Testng_TC004</td><td><a href="#m2"><b>tc004</b>  </a></td><td class="numi">1</td><td>1678186992915</td><td class="numi">13865</td></tr>
+<tr><th colspan="4">Regression1 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.hrms.testscripts.Log4j_TC001</td><td><a href="#m3"><b>tc001</b>  </a></td><td class="numi">1</td><td>1678186860065</td><td class="numi">11971</td></tr>
+<tr class="passedeven"><td rowspan="1">com.hrms.testscripts.Log4j_TC002</td><td><a href="#m4"><b>tc002</b>  </a></td><td class="numi">1</td><td>1678186872041</td><td class="numi">18217</td></tr>
+<tr class="passedodd"><td rowspan="1">com.hrms.testscripts.Log4j_TC003</td><td><a href="#m5"><b>tc003</b>  </a></td><td class="numi">1</td><td>1678186890262</td><td class="numi">22956</td></tr>
+<tr class="passedeven"><td rowspan="1">com.hrms.testscripts.Testng_TC001</td><td><a href="#m6"><b>tc001</b>  </a></td><td class="numi">1</td><td>1678186927109</td><td class="numi">12311</td></tr>
+<tr class="passedodd"><td rowspan="1">com.hrms.testscripts.Testng_TC002</td><td><a href="#m7"><b>tc002</b>  </a></td><td class="numi">1</td><td>1678186939425</td><td class="numi">23565</td></tr>
+<tr class="passedeven"><td rowspan="1">com.hrms.testscripts.Testng_TC003</td><td><a href="#m8"><b>tc003</b>  </a></td><td class="numi">1</td><td>1678186962996</td><td class="numi">29916</td></tr>
 </table>
-<h1>Default test</h1>
-<h2 id="m1">com.hrms.testscripts.Log4j_TC001:tc001</h2>
+<h1>Regression1</h1>
+<h2 id="m1">com.hrms.testscripts.Log4j_TC004:tc004</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Application opened<br/>
+<h3>Failure</h3>
+<p>Unable to locate element: *[name=&apos;chkLocID[]&apos;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [37e94070-069b-482d-9d63-c857bdcdc37c, findElement {using=name, value=chkLocID[]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:debuggerAddress: 127.0.0.1:46769, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9424, moz:profile: C:\Users\ss\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:46769/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 37e94070-069b-482d-9d63-c857bdcdc37c</p>
+java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+<br/>at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+<br/>at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at com.hrms.lib.General.DeleteId(General.java:123)
+<br/>at com.hrms.testscripts.Log4j_TC004.tc004(Log4j_TC004.java:28)
+<br/>23 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.hrms.testscripts.Testng_TC004:tc004</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Application opened<br/>
+<h3>Failure</h3>
+<p>Unable to locate element: *[name=&apos;chkLocID[]&apos;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d08e3311-b5d4-44c8-ba55-4f31b012a563, findElement {using=name, value=chkLocID[]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:debuggerAddress: 127.0.0.1:24312, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14716, moz:profile: C:\Users\ss\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:24312/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d08e3311-b5d4-44c8-ba55-4f31b012a563</p>
+java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+<br/>at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+<br/>at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at com.hrms.lib.General.DeleteId(General.java:123)
+<br/>at com.hrms.testscripts.Testng_TC004.tc004(Testng_TC004.java:25)
+<br/>23 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.hrms.testscripts.Testng_TC001:tc001</h2>
+<div style="padding-left:3em">
+Application opened<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.hrms.testscripts.Log4j_TC001:tc001</h2>
+<div style="padding-left:3em">
+Application opened<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.hrms.testscripts.Testng_TC002:tc002</h2>
+<div style="padding-left:3em">
+Application opened<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.hrms.testscripts.Log4j_TC003:tc003</h2>
+<div style="padding-left:3em">
+Application opened<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.hrms.testscripts.Log4j_TC002:tc002</h2>
+<div style="padding-left:3em">
+Application opened<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.hrms.testscripts.Testng_TC003:tc003</h2>
 <div style="padding-left:3em">
 Application opened<br/>
 </div>

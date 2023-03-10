@@ -7,3 +7,43 @@
 2023-03-07 15:29:05,274 INFO  [log] Login completed 
 2023-03-07 15:29:05,882 INFO  [log] Logout Completed 
 2023-03-07 15:29:08,352 INFO  [log] Close application 
+2023-03-07 16:31:08,409 INFO  [log] Application opened 
+2023-03-07 16:31:09,641 INFO  [log] Login completed 
+2023-03-07 16:31:10,332 INFO  [log] Logout Completed 
+2023-03-07 16:31:12,036 INFO  [log] Close application 
+2023-03-07 16:31:17,785 INFO  [log] Application opened 
+2023-03-07 16:31:18,720 INFO  [log] Login completed 
+2023-03-07 16:31:18,802 INFO  [log] Enter into frame 
+2023-03-07 16:31:24,878 INFO  [log] Add employee 
+2023-03-07 16:31:24,942 INFO  [log] Exit from frame 
+2023-03-07 16:31:28,450 INFO  [log] Logout Completed 
+2023-03-07 16:31:30,257 INFO  [log] Close application 
+2023-03-07 16:31:36,192 INFO  [log] Application opened 
+2023-03-07 16:31:37,264 INFO  [log] Login completed 
+2023-03-07 16:31:37,318 INFO  [log] Enter into frame 
+2023-03-07 16:31:48,032 INFO  [log] Exit from frame 
+2023-03-07 16:31:51,645 INFO  [log] Logout Completed 
+2023-03-07 16:31:53,217 INFO  [log] Close application 
+2023-03-07 16:31:58,657 INFO  [log] Application opened 
+2023-03-07 16:31:59,705 INFO  [log] Login completed 
+2023-03-07 16:32:02,750 INFO  [log] Enter into frame 
+2023-03-07 16:32:12,638 INFO  [log] Application opened 
+2023-03-07 16:32:13,680 INFO  [log] Login completed 
+2023-03-07 16:32:17,543 INFO  [log] Logout Completed 
+2023-03-07 16:32:19,420 INFO  [log] Close application 
+2023-03-07 16:32:24,852 INFO  [log] Application opened 
+2023-03-07 16:32:25,992 INFO  [log] Login completed 
+2023-03-07 16:32:26,068 INFO  [log] Enter into frame 
+2023-03-07 16:32:37,458 INFO  [log] Add employee 
+2023-03-07 16:32:37,486 INFO  [log] Exit from frame 
+2023-03-07 16:32:41,126 INFO  [log] Logout Completed 
+2023-03-07 16:32:42,989 INFO  [log] Close application 
+2023-03-07 16:32:48,535 INFO  [log] Application opened 
+2023-03-07 16:32:49,948 INFO  [log] Login completed 
+2023-03-07 16:32:52,988 INFO  [log] Enter into frame 
+2023-03-07 16:33:07,426 INFO  [log] Exit from frame 
+2023-03-07 16:33:11,053 INFO  [log] Logout Completed 
+2023-03-07 16:33:12,911 INFO  [log] Close application 
+2023-03-07 16:33:18,330 INFO  [log] Application opened 
+2023-03-07 16:33:19,286 INFO  [log] Login completed 
+2023-03-07 16:33:22,327 INFO  [log] Enter into frame 
